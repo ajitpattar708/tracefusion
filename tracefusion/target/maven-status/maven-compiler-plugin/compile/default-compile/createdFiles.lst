@@ -1,0 +1,9 @@
+com\tracefusion\TracingAspect.class
+com\tracefusion\configuration\TraceFusionConfig.class
+com\tracefusion\DefaultTracer.class
+com\tracefusion\TraceSpan.class
+com\tracefusion\Tracer.class
+com\tracefusion\HttpSpanSender.class
+com\tracefusion\application\TraceFusionCollectorApplication.class
+com\tracefusion\controller\SpanController.class
+com\tracefusion\SpanSender.class

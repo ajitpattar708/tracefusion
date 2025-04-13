@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>TraceFusion </title>
+</head>
+<body>
+	 <div id="traces"></div>
+	 <script>
+		  fetch('http://locahost:9000/traces')
+		     .then(response => response.json())
+		     .then(traces =>  {
+			     const div = document.getElementById('traces');
+			     traces.forEach( trace => {
+				    div.innerHTML += '<p>'${trace.operation} (${trace.endTime - trace.startTime}ms) - $ {JSON.stringfy(trace.context)}</p>';
+			     });
+			  
+		      });
+		 </script>
+		 
+		 </body>
+</html>>

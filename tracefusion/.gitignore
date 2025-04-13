@@ -1,0 +1,9 @@
+# Ignore Eclipse/STS settings folder
+.settings/
+
+# Ignore build folders
+/target/
+.idea/
+*.iml
+*.log
+.DS_Store
